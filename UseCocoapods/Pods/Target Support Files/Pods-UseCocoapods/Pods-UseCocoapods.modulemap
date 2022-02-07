@@ -1,6 +1,0 @@
-framework module Pods_UseCocoapods {
-  umbrella header "Pods-UseCocoapods-umbrella.h"
-
-  export *
-  module * { export * }
-}
