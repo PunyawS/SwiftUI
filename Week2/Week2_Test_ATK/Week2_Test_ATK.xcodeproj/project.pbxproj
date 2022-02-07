@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BF41586EAD514C5858A8E5F /* Pods_Week2_Test_ATK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E146E408D1FABD774DE31F9 /* Pods_Week2_Test_ATK.framework */; };
+		DD14B42827911D6C00BD5391 /* Week2_Test_ATKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD14B42727911D6C00BD5391 /* Week2_Test_ATKApp.swift */; };
+		DD14B42A27911D6C00BD5391 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD14B42927911D6C00BD5391 /* ContentView.swift */; };
+		DD14B42C27911D6D00BD5391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD14B42B27911D6D00BD5391 /* Assets.xcassets */; };
+		DD14B42F27911D6D00BD5391 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD14B42E27911D6D00BD5391 /* Preview Assets.xcassets */; };
+		DD14B43727911E1C00BD5391 /* PDFModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD14B43627911E1C00BD5391 /* PDFModel.swift */; };
+		DD14B43B27911EAF00BD5391 /* file_atk.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD14B43A27911EAF00BD5391 /* file_atk.pdf */; };
+		DD14B43F27911FC600BD5391 /* ATK.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD14B43E27911FC600BD5391 /* ATK.swift */; };
+		DD14B4412791211500BD5391 /* ConvertAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD14B4402791211500BD5391 /* ConvertAPI.swift */; };
+		DD14B4432791249F00BD5391 /* imageView_Notuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD14B4422791249F00BD5391 /* imageView_Notuse.swift */; };
+		DD14B4462791375000BD5391 /* WebModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD14B4452791375000BD5391 /* WebModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		487EA08175933D59121B0929 /* Pods-Week2_Test_ATK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week2_Test_ATK.release.xcconfig"; path = "Target Support Files/Pods-Week2_Test_ATK/Pods-Week2_Test_ATK.release.xcconfig"; sourceTree = "<group>"; };
+		7E146E408D1FABD774DE31F9 /* Pods_Week2_Test_ATK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Week2_Test_ATK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2D436C999B049ADABFF511 /* Pods-Week2_Test_ATK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week2_Test_ATK.debug.xcconfig"; path = "Target Support Files/Pods-Week2_Test_ATK/Pods-Week2_Test_ATK.debug.xcconfig"; sourceTree = "<group>"; };
+		DD14B42427911D6C00BD5391 /* Week2_Test_ATK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week2_Test_ATK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD14B42727911D6C00BD5391 /* Week2_Test_ATKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2_Test_ATKApp.swift; sourceTree = "<group>"; };
+		DD14B42927911D6C00BD5391 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD14B42B27911D6D00BD5391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD14B42E27911D6D00BD5391 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD14B43627911E1C00BD5391 /* PDFModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFModel.swift; sourceTree = "<group>"; };
+		DD14B43A27911EAF00BD5391 /* file_atk.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = file_atk.pdf; sourceTree = "<group>"; };
+		DD14B43E27911FC600BD5391 /* ATK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATK.swift; sourceTree = "<group>"; };
+		DD14B4402791211500BD5391 /* ConvertAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertAPI.swift; sourceTree = "<group>"; };
+		DD14B4422791249F00BD5391 /* imageView_Notuse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageView_Notuse.swift; sourceTree = "<group>"; };
+		DD14B44427912A9100BD5391 /* Week2-Test-ATK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Week2-Test-ATK-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DD14B4452791375000BD5391 /* WebModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD14B42127911D6C00BD5391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF41586EAD514C5858A8E5F /* Pods_Week2_Test_ATK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F0A2D8E9BE7002BC0E5EF43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E146E408D1FABD774DE31F9 /* Pods_Week2_Test_ATK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD14B41B27911D6C00BD5391 = {
+			isa = PBXGroup;
+			children = (
+				DD14B42627911D6C00BD5391 /* Week2_Test_ATK */,
+				DD14B42527911D6C00BD5391 /* Products */,
+				E5D98DDCD32BCCE9A1BBE6AE /* Pods */,
+				8F0A2D8E9BE7002BC0E5EF43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD14B42527911D6C00BD5391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD14B42427911D6C00BD5391 /* Week2_Test_ATK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD14B42627911D6C00BD5391 /* Week2_Test_ATK */ = {
+			isa = PBXGroup;
+			children = (
+				DD14B44427912A9100BD5391 /* Week2-Test-ATK-Info.plist */,
+				DD14B42727911D6C00BD5391 /* Week2_Test_ATKApp.swift */,
+				DD14B43A27911EAF00BD5391 /* file_atk.pdf */,
+				DD14B43C27911EB800BD5391 /* View */,
+				DD14B43527911E0F00BD5391 /* ViewModel */,
+				DD14B43D27911FAF00BD5391 /* Model */,
+				DD14B42B27911D6D00BD5391 /* Assets.xcassets */,
+				DD14B42D27911D6D00BD5391 /* Preview Content */,
+			);
+			path = Week2_Test_ATK;
+			sourceTree = "<group>";
+		};
+		DD14B42D27911D6D00BD5391 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD14B42E27911D6D00BD5391 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD14B43527911E0F00BD5391 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD14B4402791211500BD5391 /* ConvertAPI.swift */,
+				DD14B43627911E1C00BD5391 /* PDFModel.swift */,
+				DD14B4452791375000BD5391 /* WebModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD14B43C27911EB800BD5391 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD14B42927911D6C00BD5391 /* ContentView.swift */,
+				DD14B4422791249F00BD5391 /* imageView_Notuse.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD14B43D27911FAF00BD5391 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD14B43E27911FC600BD5391 /* ATK.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5D98DDCD32BCCE9A1BBE6AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F2D436C999B049ADABFF511 /* Pods-Week2_Test_ATK.debug.xcconfig */,
+				487EA08175933D59121B0929 /* Pods-Week2_Test_ATK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD14B42327911D6C00BD5391 /* Week2_Test_ATK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD14B43227911D6D00BD5391 /* Build configuration list for PBXNativeTarget "Week2_Test_ATK" */;
+			buildPhases = (
+				BD790E0508D2A3330FFECA14 /* [CP] Check Pods Manifest.lock */,
+				DD14B42027911D6C00BD5391 /* Sources */,
+				DD14B42127911D6C00BD5391 /* Frameworks */,
+				DD14B42227911D6C00BD5391 /* Resources */,
+				5D0B7EF6337CC6989123F264 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Week2_Test_ATK;
+			productName = Week2_Test_ATK;
+			productReference = DD14B42427911D6C00BD5391 /* Week2_Test_ATK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD14B41C27911D6C00BD5391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DD14B42327911D6C00BD5391 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DD14B41F27911D6C00BD5391 /* Build configuration list for PBXProject "Week2_Test_ATK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD14B41B27911D6C00BD5391;
+			productRefGroup = DD14B42527911D6C00BD5391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD14B42327911D6C00BD5391 /* Week2_Test_ATK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD14B42227911D6C00BD5391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD14B42F27911D6D00BD5391 /* Preview Assets.xcassets in Resources */,
+				DD14B42C27911D6D00BD5391 /* Assets.xcassets in Resources */,
+				DD14B43B27911EAF00BD5391 /* file_atk.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D0B7EF6337CC6989123F264 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Week2_Test_ATK/Pods-Week2_Test_ATK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Week2_Test_ATK/Pods-Week2_Test_ATK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Week2_Test_ATK/Pods-Week2_Test_ATK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD790E0508D2A3330FFECA14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Week2_Test_ATK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD14B42027911D6C00BD5391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD14B4412791211500BD5391 /* ConvertAPI.swift in Sources */,
+				DD14B43F27911FC600BD5391 /* ATK.swift in Sources */,
+				DD14B4462791375000BD5391 /* WebModel.swift in Sources */,
+				DD14B43727911E1C00BD5391 /* PDFModel.swift in Sources */,
+				DD14B42A27911D6C00BD5391 /* ContentView.swift in Sources */,
+				DD14B4432791249F00BD5391 /* imageView_Notuse.swift in Sources */,
+				DD14B42827911D6C00BD5391 /* Week2_Test_ATKApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD14B43027911D6D00BD5391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD14B43127911D6D00BD5391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD14B43327911D6D00BD5391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2D436C999B049ADABFF511 /* Pods-Week2_Test_ATK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week2_Test_ATK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Week2-Test-ATK-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Week2-Test-ATK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD14B43427911D6D00BD5391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487EA08175933D59121B0929 /* Pods-Week2_Test_ATK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week2_Test_ATK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Week2-Test-ATK-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.Week2-Test-ATK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD14B41F27911D6C00BD5391 /* Build configuration list for PBXProject "Week2_Test_ATK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD14B43027911D6D00BD5391 /* Debug */,
+				DD14B43127911D6D00BD5391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD14B43227911D6D00BD5391 /* Build configuration list for PBXNativeTarget "Week2_Test_ATK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD14B43327911D6D00BD5391 /* Debug */,
+				DD14B43427911D6D00BD5391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD14B41C27911D6C00BD5391 /* Project object */;
+}
