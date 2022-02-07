@@ -1,0 +1,42 @@
+[
+ {
+  "digit": 0,
+  "description": "ต้องทำเยอะ"
+ },
+ {
+  "digit": 1,
+  "description": "เจริญก้าวหน้า"
+ },
+ {
+  "digit": 2,
+  "description": "มีเสน่ห์"
+ },
+ {
+  "digit": 3,
+  "description": "ต้องทำด้วยตัวเอง"
+ },
+ {
+  "digit": 4,
+  "description": "มีความยุติธรรม"
+ },
+ {
+  "digit": 5,
+  "description": "ทำการค้า"
+ },
+ {
+  "digit": 6,
+  "description": "มีความสุข"
+ },
+ {
+  "digit": 7,
+  "description": "เหนื่อย"
+ },
+ {
+  "digit": 8,
+  "description": "รวย"
+ },
+ {
+  "digit": 9,
+  "description": "ดี"
+ }
+]
